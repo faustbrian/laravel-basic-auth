@@ -1,0 +1,6 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method get\\(\\) on mixed\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
