@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace BombenProdukt\BasicAuth\Http\Middleware;
 
+use BombenProdukt\BasicAuth\Authenticator;
 use Closure;
 use Illuminate\Http\Request;
-use BombenProdukt\BasicAuth\Authenticator;
 use Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException;
 
 final class AuthenticateWithBasicAuth
