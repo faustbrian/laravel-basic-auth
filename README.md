@@ -4,20 +4,6 @@
     </a>
 </p>
 
-<p align="center">
-    <a href="https://github.com/faustbrian/laravel-basic-auth/actions">
-        <img src="https://badge.sh/github/check-runs/BombenProdukt/laravel-basic-auth" alt="Checks" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-basic-auth">
-        <img src="https://badge.sh/packagist/downloads/BombenProdukt/laravel-basic-auth" alt="Downloads" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-basic-auth">
-        <img src="https://badge.sh/packagist/version/BombenProdukt/laravel-basic-auth" alt="Version" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-basic-auth">
-        <img src="https://badge.sh/packagist/license/BombenProdukt/laravel-basic-auth" alt="License" />
-    </a>
-</p>
 
 ## About Laravel Basic Auth
 
