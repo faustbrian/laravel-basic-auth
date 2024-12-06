@@ -1,0 +1,36 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BasicAuth\\\\Authenticator\\:\\:__construct\\(\\) has parameter \\$credentials with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Authenticator.php
+
+		-
+			message: "#^Cannot call method get\\(\\) on mixed\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BasicAuth\\\\ServiceProvider\\:\\:provides\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Dynamic call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertNull\\(\\)\\.$#"
+			count: 1
+			path: tests/Feature/Http/Middleware/AuthenticateWithBasicAuthTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$request of method BaseCodeOy\\\\BasicAuth\\\\Http\\\\Middleware\\\\AuthenticateWithBasicAuth\\:\\:handle\\(\\) expects Illuminate\\\\Http\\\\Request, Symfony\\\\Component\\\\HttpFoundation\\\\Request given\\.$#"
+			count: 4
+			path: tests/Feature/Http/Middleware/AuthenticateWithBasicAuthTest.php
+
+		-
+			message: "#^Undefined variable\\: \\$this$#"
+			count: 1
+			path: tests/Pest.php
